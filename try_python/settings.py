@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-ubc*-9^07fn03=dwt0$p)^_h%cwoea*w&h3+y0wfl2-w%vvd)w
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['https://trypython-sj4g.onrender.com/']
+ALLOWED_HOSTS = ['https://trypython-sj4g.onrender.com']
 
 
 # Application definition
