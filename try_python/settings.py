@@ -77,8 +77,12 @@ WSGI_APPLICATION = 'try_python.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'try-python-db',
+        'USER': 'trypythondb_f53x_user',
+        'PASSWORD': 'resjkGxCJJpHY4mmIZIcQbHkE0ydUxbt',
+        'HOST': 'dpg-crosjn68ii6s739q76og-a',
+        'PORT': '5432'
     }
 }
 
